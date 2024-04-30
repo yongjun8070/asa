@@ -1,0 +1,264 @@
+@charset "utf-8";
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    color: #333;
+}
+
+body,
+html {
+    max-width: 100%;
+}
+
+.wrap {
+    width: 1200px;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#header {
+    height: 100px;
+}
+
+#logo {
+    padding: 30px;
+}
+
+nav {
+    width: 640px;
+    float: right;
+    margin-right: 60px;
+    margin-top: -45px;
+}
+
+.nav>li {
+    float: left;
+    text-align: center;
+    width: 160px;
+    padding: 10px 0px;
+    position: relative;
+    transition: all 0.4s;
+}
+
+.nav>li:hover {
+    background-color: #3cb149;
+    color: #ffffff;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    margin-top: 10px;
+    z-index: 2;
+}
+
+.submenu>li {
+    text-align: center;
+    width: 160px;
+    padding: 10px 0px;
+    color: #ffffff;
+    transition: all 0.4s;
+}
+
+.submenu>li:hover {
+    background-color: #1d8844;
+}
+
+.subback {
+    display: none;
+    width: 1200px;
+    height: 125px;
+    background-color: #434748;
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    transition: all 0.4s;
+}
+
+
+
+#slide {
+    width: 1200px;
+    overflow: hidden;
+}
+
+.imageslide {
+    width: 3600px;
+}
+
+.imageslide>li {
+    float: left;
+}
+
+.imageslide img {
+    display: block;
+}
+
+
+
+#contents {
+    height: 200px;
+    display: flex;
+}
+
+#notice {
+    width: 400px;
+    display: inline-block;
+}
+
+#notice h3 {
+    background-color: #3cb149;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+#notice>table {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    border-collapse: collapse;
+    height: 140px;
+}
+
+#notice>table tr:nth-child(2n) {
+    background-color: #3cb149;
+}
+
+.item {
+    float: left;
+    width: 80%;
+}
+
+.date {
+    float: right;
+    width: 20%;
+}
+
+#gallery {
+    width: 400px;
+    display: inline-block;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+#gallery a img {
+    width: 33%;
+    height: 100px;
+    margin-top: 20px;
+    float: left;
+    display: block;
+}
+
+#gallery h3 {
+    background-color: #3cb149;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+#banner {
+    width: 360px;
+    display: inline-block;
+}
+
+#banner a img {
+    width: 100%;
+    height: 180px;
+    display: block;
+    margin-top: 10px;
+}
+
+
+
+#footer {
+    height: 100px;
+}
+
+#Graylogo {
+    float: left;
+    padding: 30px;
+}
+
+#footer p {
+    padding-top: 25px;
+    margin-left: 350px;
+    font-size: 14px;
+}
+
+#familysite {
+    float: right;
+    margin-top: -25px;
+    padding: 0px 30px;
+}
+
+#familysite button {
+    background-color: #434748;
+    border: none;
+    color: #ffffff;
+    width: 60px;
+    height: 20px;
+}
+
+#familysite button:hover {
+    background-color: #ffffff;
+    color: #434748;
+}
+
+
+
+#modal {
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+#modalcontent {
+    background-color: #ffffff;
+    width: 500px;
+    height: 300px;
+    margin-top: 200px;
+    text-align: center;
+}
+
+#modalcontent h3 {
+    padding: 10px;
+}
+
+#modalcontent p {
+    padding: 10px;
+}
+
+#modalcontent button {
+    background-color: #3cb149;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#modalcontent button:hover {
+    background-color: #1d8844;
+    color: #ffffff;
+}
